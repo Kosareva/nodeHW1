@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "comma-spacing": ["error", { "before": false, "after": true }],
+        "no-const-assign": "error",
+        "no-dupe-class-members": "error",
+        "no-multi-spaces": "error",
+        "no-duplicate-imports": "error",
+        "no-useless-constructor": "error",
+        "no-nested-ternary": "error",
+        "no-magic-numbers": "error",
+        "no-var": "error",
+        "key-spacing": ["error", { "afterColon": true }],
+        "keyword-spacing": ["error", { "before": true }],
+        "lines-between-class-members": ["error", "always"],
+        "max-len": ["error", { "code": 120,
+            "ignoreComments": true,
+            "ignoreUrls": true,
+            "tabWidth": 2,
+            "ignoreStrings": true
+        }],
+        "object-curly-spacing": ["error", "always"],
+        "prefer-const": ["error", {
+            "destructuring": "any"
+        }],
+        "prefer-template": "error",
+        "arrow-spacing": ["error",  { "before": true, "after": true }],
+        "no-trailing-spaces": ["error", { "ignoreComments": true }],
+        "spaced-comment": ["error", "always", { "exceptions": ["*", "-", "+"] }]
+    }
+}
