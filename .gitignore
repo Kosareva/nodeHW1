@@ -4,4 +4,5 @@ dist
 commitlint.config.js
 projects/**/dist
 projects/**/node_modules
+projects/task-1.2/src/out
 !.gitignore

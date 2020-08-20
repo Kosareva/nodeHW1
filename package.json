@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:task1": "npm run start:prod --prefix projects/task-1.1",
+    "start:task2": "npm run start:prod --prefix projects/task-1.2",
     "lint": "eslint --ignore-path .gitignore"
   },
   "keywords": [],
